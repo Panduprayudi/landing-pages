@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+body {
+    background-color: rgba(192, 228, 240, 0.562);
+}
+
+
+.container {
+    max-width: 1024px;
+    /* background-color: red; */
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    margin-top: 4%;
+    max-height: 100vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px 20px;
+    color: black;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.span {
+    display: flex;
+}
+
+.span li {
+    padding: 0 17px;
+    font-size: 15px;
+}
+
+.logo {
+    padding-right: 40px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper,
+.logo,
+.span,
+li a {
+    color: black;
+}
+
+
+.tombolSatu {
+    padding: 7px 15px;
+    border: rgb(105, 149, 245) 2px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(105, 149, 245);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.tombolSatu:hover {
+    box-shadow: 0 0 10px;
+}
+
+
+
+.kedua {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.present {
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.make {
+    font-size: 60px;
+    font-weight: bold
+}
+
+
+
+.deskripsi {
+    margin: 20px auto;
+    width: 400px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.inputEmail {
+    padding: 15px;
+    padding-right: 50px;
+    border: none;
+    border-radius: 3px;
+}
+
+.tombolSend {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: crimson;
+    color: white;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.tombolSend:hover {
+    background-color: rgb(168, 0, 34);
+}
+
+
+.inputEmail:focus {
+    box-shadow: 0 0 8px crimson;
+    outline: crimson 1px solid;
+    outline-offset: 1px;
+}
+
+.tombolSend:focus {
+    box-shadow: 0 0 8px crimson;
+    outline: crimson 1px solid;
+    outline-offset: 1px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(105, 105, 105);
+}
+
+input {
+    background-color: rgb(238, 238, 238);
+}
+
+.caption {
+    margin: 20px;
+    font-size: 13px;
+    color: rgb(116, 116, 116);
+}
+
+
+svg {
+    width: 30px;
+    fill: rgba(204, 12, 12, 0.836);
+    color: crimson;
+    margin-right: 13px;
+}
+
+
+.wrapperKetiga {
+    display: flex;
+
+}
+
+.judulImg {
+    font-weight: bold;
+}
+
+.kotak {
+    display: flex;
+
+}
+
+.desk {
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+
+.ketiga {
+    margin-top: 100px;
+}
+
+
+a:hover {
+    color: rgb(13, 143, 224);
+}
